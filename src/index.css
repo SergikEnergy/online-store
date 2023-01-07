@@ -1,0 +1,10 @@
+@import '../src/libs/bootstrap5/css/bootstrap.min.css';
+/* @import '../src/libs/bootstrap5/css/bootstrap.min.css.map'; */
+@import './fonts/fonts.css';
+
+body {
+  background-image: url('./assets/img/bg.jpg');
+  font-family: Roboto;
+  font-weight: 900;
+  font-style: italic;
+}
