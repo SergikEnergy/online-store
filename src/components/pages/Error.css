@@ -1,0 +1,6 @@
+@import '../../libs/bootstrap5/css/bootstrap.min.css';
+.error_page {
+  font-size: 2.4rem;
+  line-height: 2.6rem;
+  color: white;
+}
