@@ -1,0 +1,59 @@
+.header {
+  background-color: rgb(114, 29, 3);
+  border-bottom-right-radius: 20px;
+  border-bottom-left-radius: 20px;
+  padding-top: 6px;
+  padding-bottom: 6px;
+}
+.wrapper__header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  max-width: 95%;
+  margin: 0 auto;
+  color: white;
+}
+.header__logo_link {
+  text-decoration: none;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.header__logo img {
+  display: inline-block;
+  width: 60px;
+  height: 60px;
+}
+.header__logo_text {
+  color: white;
+  padding: 0;
+  margin: 0;
+  display: inline-block;
+  font-size: 3rem;
+  line-height: 3.3rem;
+}
+
+.header__cart img {
+  display: block;
+  width: 50px;
+  height: 50px;
+}
+.header__cart {
+  position: relative;
+}
+
+.cart__count {
+  position: absolute;
+  top: 50%;
+  right: 50%;
+  transform: translate(50%, -50%);
+  color: rgb(44, 255, 1);
+  line-height: 2.7rem;
+  font-size: 2.6rem;
+}
+
+.header__cash_total {
+  font-size: 2.3rem;
+  line-height: 2.5rem;
+}

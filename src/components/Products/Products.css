@@ -1,0 +1,41 @@
+.products {
+  min-height: 300px;
+  width: 67%;
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  align-items: baseline;
+  justify-content: flex-start;
+  border-radius: 10px;
+  border: 2px solid rgb(252, 218, 218);
+}
+.products__panel {
+  align-self: center;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  border-bottom: 2px solid white;
+}
+
+.control {
+  width: 100%;
+  font-size: 1.4rem;
+  line-height: 1.5rem;
+  padding: 1%;
+}
+
+.control__sort label {
+  margin-right: 8px;
+}
+.select_sort {
+  padding-left: 5px;
+}
+
+.control__view {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.control__view_card {
+  margin-right: 2%;
+}

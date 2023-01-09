@@ -1,0 +1,28 @@
+/* @import '../src/libs/bootstrap5/css/bootstrap.min.css'; */
+/* @import '../src/libs/bootstrap5/css/bootstrap.min.css.map'; */
+
+@import './fonts/fonts.css';
+
+html {
+  margin: 0 auto;
+  padding: 0;
+  font-family: Roboto, Verdana, sans-serif;
+  font-size: 10px;
+  font-weight: normal;
+  color: rgb(240, 148, 10);
+  max-width: 1920px;
+  width: 100%;
+}
+body {
+  background-image: url('./assets/img/bg.jpg');
+  background-repeat: no-repeat;
+  background-size: cover;
+  font-family: Roboto;
+
+  font-weight: 400;
+  font-style: normal;
+}
+.wrapper {
+  max-width: 95%;
+  margin: 0 auto;
+}

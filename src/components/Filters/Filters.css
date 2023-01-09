@@ -1,0 +1,12 @@
+.filters {
+  min-height: 300px;
+
+  width: 30%;
+
+  display: flex;
+  flex-direction: column;
+  align-items: baseline;
+  justify-content: flex-start;
+  border-radius: 10px;
+  border: 2px solid rgb(252, 218, 218);
+}

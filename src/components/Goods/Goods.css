@@ -1,0 +1,15 @@
+.hidden {
+  display: none;
+}
+.goods {
+  width: 100%;
+  height: 100%;
+}
+.items__cards {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  margin: 0.5%;
+  align-items: stretch;
+  padding: 0.5%;
+}
