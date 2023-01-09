@@ -22,7 +22,7 @@ export const data: IData[] = [
   {
     id: 2,
     category: 'видеокарта',
-    brand: 'Gigabyte GeForce GTX 1660',
+    brand: 'Gigabyte GeForce GTX',
     description:
       'NVIDIA GeForce GTX 1660 Super 6 ГБ GDDR6, базовая частота 1530 МГц, макс. частота 1830 МГц, 1408sp, частота памяти 14000 МГц, 192 бит, доп. питание: 8 pin, 2 слота, HDMI, DisplayPort',
     price: 450,
@@ -40,7 +40,7 @@ export const data: IData[] = [
   {
     id: 3,
     category: 'видеокарта',
-    brand: 'NVIDIA GeForce RTX 3080',
+    brand: 'NVIDIA GeForce RTX',
     description:
       'NVIDIA GeForce RTX 3080 10 ГБ GDDR6X LHR, базовая частота 1440 МГц, макс. частота 1710 МГц, 8704sp, 68 RT-ядер, частота памяти 19000 МГц, 320 бит, доп. питание: 8+8 pin, 2.7 слота, HDMI, DisplayPort, трассировка лучей',
     price: 1200,
@@ -58,7 +58,7 @@ export const data: IData[] = [
   {
     id: 4,
     category: 'видеокарта',
-    brand: 'ASUS TUF Gaming',
+    brand: 'ASUS TUF',
     description:
       'NVIDIA GeForce RTX 3060 12 ГБ GDDR6 LHR, базовая частота 1320 МГц, макс. частота 1882 МГц, 3584sp, 28 RT-ядер, частота памяти 15000 МГц, 192 бит, доп. питание: 8 pin, 2.7 слота, HDMI, DisplayPort, трассировка лучей',
     price: 575,
@@ -76,7 +76,7 @@ export const data: IData[] = [
   {
     id: 5,
     category: 'видеокарта',
-    brand: 'Sapphire Radeon RX 6800',
+    brand: 'Sapphire Radeon',
     description:
       'AMD Radeon RX 6800 XT 16 ГБ GDDR6, базовая частота 2015 МГц, макс. частота 2360 МГц, 4608sp, 72 RT-ядер, частота памяти 16000 МГц, 256 бит, доп. питание: 8+8 pin, 2.7 слота, HDMI, DisplayPort, USB Type-C, трассировка лучей',
     price: 300,
@@ -94,7 +94,7 @@ export const data: IData[] = [
   {
     id: 6,
     category: 'оперативная память',
-    brand: 'Kingston FURY Beast',
+    brand: 'Kingston FURY',
     description:
       '16 ГБ, 2 модуля DDR4 DIMM по 8 ГБ, частота 3200 МГц, CL 16T, тайминги 16-18-18, напряжение 1.35 В',
     price: 98,
@@ -129,7 +129,7 @@ export const data: IData[] = [
   {
     id: 8,
     category: 'оперативная память',
-    brand: 'Kingston FURY Renegade',
+    brand: 'Kingston FURY',
     description:
       '8 ГБ, 1 модуль DDR332 ГБ, 2 модуля DDR4 DIMM по 16 ГБ, частота 3600 МГц, CL 16T, тайминги 16-20-20, напряжение 1.35 В',
     price: 150,
@@ -147,7 +147,7 @@ export const data: IData[] = [
   {
     id: 9,
     category: 'оперативная память',
-    brand: 'Patriot Viper 3',
+    brand: 'Patriot Viper',
     description:
       '16 ГБ, 2 модуля DDR3 DIMM по 8 ГБ, частота 1600 МГц, CL 9T, тайминги 9-9-9-24, напряжение 1.5 В',
     price: 85,
@@ -165,7 +165,7 @@ export const data: IData[] = [
   {
     id: 10,
     category: 'оперативная память',
-    brand: 'G.Skill Trident Z',
+    brand: 'G.Skill Trident',
     description:
       '32 ГБ, 2 модуля DDR4 DIMM по 16 ГБ, частота 3200 МГц, CL 16T, тайминги 16-18-18-38, напряжение 1.35 В',
     price: 170,

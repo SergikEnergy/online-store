@@ -2,12 +2,12 @@
   margin-top: 15px;
   text-align: center;
   color: white;
-  line-height: 1.6rem;
-  font-size: 1.6rem;
+  line-height: 2rem;
+  font-size: 2rem;
 }
 
 .page {
   display: flex;
-  align-items: center;
+  align-items: flex-start;
   justify-content: space-between;
 }

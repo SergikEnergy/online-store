@@ -14,6 +14,7 @@ function Main() {
           <Routes>
             <Route path='/' element={<Home />} />
             <Route path='/cart' element={<Cart />} />
+            {/* <Route path='/details/:number' element={<Details />} /> */}
             <Route path='*' element={<Error />}></Route>
           </Routes>
         </div>
