@@ -10,11 +10,13 @@ function Main() {
   return (
     <>
       <main className='main'>
-        <Routes>
-          <Route path='/' element={<Home />} />
-          <Route path='/cart' element={<Cart />} />
-          <Route path='*' element={<Error />}></Route>
-        </Routes>
+        <div className='wrapper wrapper__main'>
+          <Routes>
+            <Route path='/' element={<Home />} />
+            <Route path='/cart' element={<Cart />} />
+            <Route path='*' element={<Error />}></Route>
+          </Routes>
+        </div>
       </main>
     </>
   );

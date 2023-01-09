@@ -1,3 +1,13 @@
-.main {
+.wrapper__main {
+  margin-top: 15px;
   text-align: center;
+  color: white;
+  line-height: 1.6rem;
+  font-size: 1.6rem;
+}
+
+.page {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
 }

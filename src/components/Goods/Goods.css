@@ -1,0 +1,58 @@
+.hidden {
+  display: none;
+}
+.goods {
+  width: 100%;
+}
+.items__cards {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: flex-start;
+  margin: 0.5%;
+  align-items: center;
+  padding: 0.5%;
+  align-items: center;
+  color: black;
+}
+.card__info,
+.card__actions,
+.card__info_row {
+  background: transparent;
+}
+
+.card {
+  /* background-image: url('./goods-img/Adapter1-thumbnail.jpeg'); */
+  background-size: cover;
+  padding: 0 2% 0 0;
+  border-radius: 15px;
+  border: 2px solid rgb(255, 230, 0);
+}
+
+.card__info {
+  border: 2px solid gold;
+  border-bottom-right-radius: 10px;
+  margin-right: 10%;
+}
+.card__info_row {
+  padding: 1px;
+  padding-left: 4px;
+  color: rgb(255, 73, 12);
+  font-size: 1.2rem;
+  line-height: 1.2rem;
+  font-style: italic;
+  text-align: left;
+}
+
+.card__actions {
+  margin-top: 25%;
+}
+
+.button_products {
+  background-color: rgb(207, 37, 37);
+  font-size: 1.3rem;
+  line-height: 1.4rem;
+}
+.card__actions_show-more {
+  margin-top: 5px;
+  margin-left: 5px;
+}

@@ -10,7 +10,7 @@ function Header() {
           <div className='header__logo'>
             <Link className='header__logo_link' to='/'>
               <img src={require('./../../assets/img/LogoStore.png')} alt='logo Store' />
-              <span className='header__logo_text'>Item Store</span>
+              <span className='header__logo_text'>Мини Маг</span>
             </Link>
           </div>
           <div className='header__cash'>
