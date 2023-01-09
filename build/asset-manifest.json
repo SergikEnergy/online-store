@@ -1,0 +1,30 @@
+{
+  "files": {
+    "main.css": "/static/css/main.aefb70c2.css",
+    "main.js": "/static/js/main.c8f63835.js",
+    "static/media/CartIcon.png": "/static/media/CartIcon.b211ce68aa8a774bcec3.png",
+    "static/media/bg.jpg": "/static/media/bg.0763d25375ccb32f0afc.jpg",
+    "static/media/LogoStore.png": "/static/media/LogoStore.ac98bf0d556baf748550.png",
+    "static/media/roboto-v30-latin_cyrillic-900italic.woff": "/static/media/roboto-v30-latin_cyrillic-900italic.a8c1320178e852f53a81.woff",
+    "static/media/roboto-v30-latin_cyrillic-italic.woff": "/static/media/roboto-v30-latin_cyrillic-italic.65155c94ce93c92d614d.woff",
+    "static/media/roboto-v30-latin_cyrillic-700italic.woff": "/static/media/roboto-v30-latin_cyrillic-700italic.03f374f696bf2c239030.woff",
+    "static/media/roboto-v30-latin_cyrillic-900.woff": "/static/media/roboto-v30-latin_cyrillic-900.2cc0598a1f3e887a8c80.woff",
+    "static/media/roboto-v30-latin_cyrillic-700.woff": "/static/media/roboto-v30-latin_cyrillic-700.7bd45dae328c719f7559.woff",
+    "static/media/roboto-v30-latin_cyrillic-regular.woff": "/static/media/roboto-v30-latin_cyrillic-regular.f80311e1d67029198330.woff",
+    "static/media/roboto-v30-latin_cyrillic-900italic.woff2": "/static/media/roboto-v30-latin_cyrillic-900italic.a68616cc8709376dd04f.woff2",
+    "static/media/RSlogo.png": "/static/media/RSlogo.a654f4f197f939036ed8.png",
+    "static/media/roboto-v30-latin_cyrillic-italic.woff2": "/static/media/roboto-v30-latin_cyrillic-italic.2added54ff061f8125e1.woff2",
+    "static/media/roboto-v30-latin_cyrillic-700italic.woff2": "/static/media/roboto-v30-latin_cyrillic-700italic.b28183e49a74864847a7.woff2",
+    "static/media/roboto-v30-latin_cyrillic-700.woff2": "/static/media/roboto-v30-latin_cyrillic-700.a3f18f14e8ed9cc1f976.woff2",
+    "static/media/roboto-v30-latin_cyrillic-900.woff2": "/static/media/roboto-v30-latin_cyrillic-900.5f68de2dde4223086ab2.woff2",
+    "static/media/roboto-v30-latin_cyrillic-regular.woff2": "/static/media/roboto-v30-latin_cyrillic-regular.4fffc5153fbed09f129b.woff2",
+    "static/media/GHlogo.png": "/static/media/GHlogo.27c708e16031e699ea09.png",
+    "index.html": "/index.html",
+    "main.aefb70c2.css.map": "/static/css/main.aefb70c2.css.map",
+    "main.c8f63835.js.map": "/static/js/main.c8f63835.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.aefb70c2.css",
+    "static/js/main.c8f63835.js"
+  ]
+}
