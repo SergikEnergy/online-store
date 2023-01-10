@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/online-store/static/css/main.0ba18294.css",
-    "main.js": "/online-store/static/js/main.ac6d356d.js",
+    "main.css": "/online-store/static/css/main.cffc62fe.css",
+    "main.js": "/online-store/static/js/main.a235ba09.js",
     "static/media/CartIcon.png": "/online-store/static/media/CartIcon.b211ce68aa8a774bcec3.png",
     "static/media/bg.jpg": "/online-store/static/media/bg.0763d25375ccb32f0afc.jpg",
     "static/media/LogoStore.png": "/online-store/static/media/LogoStore.ac98bf0d556baf748550.png",
@@ -20,11 +20,11 @@
     "static/media/roboto-v30-latin_cyrillic-regular.woff2": "/online-store/static/media/roboto-v30-latin_cyrillic-regular.4fffc5153fbed09f129b.woff2",
     "static/media/GHlogo.png": "/online-store/static/media/GHlogo.27c708e16031e699ea09.png",
     "index.html": "/online-store/index.html",
-    "main.0ba18294.css.map": "/online-store/static/css/main.0ba18294.css.map",
-    "main.ac6d356d.js.map": "/online-store/static/js/main.ac6d356d.js.map"
+    "main.cffc62fe.css.map": "/online-store/static/css/main.cffc62fe.css.map",
+    "main.a235ba09.js.map": "/online-store/static/js/main.a235ba09.js.map"
   },
   "entrypoints": [
-    "static/css/main.0ba18294.css",
-    "static/js/main.ac6d356d.js"
+    "static/css/main.cffc62fe.css",
+    "static/js/main.a235ba09.js"
   ]
 }
