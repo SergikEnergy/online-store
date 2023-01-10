@@ -1,4 +1,4 @@
-import React, { useContext, useState, useEffect } from 'react';
+import React, { useContext, useState } from 'react';
 import { Link, useParams } from 'react-router-dom';
 import './Details.css';
 import { MainContext } from '../Main/Main';
@@ -9,16 +9,21 @@ type detailNum = {
 
 function Details() {
   const params = useParams<detailNum>();
+
+  const [cartClick, setCartClick] = useState(false);
   // console.log(params, typeof params.id);
   const currentParam: number = Number(params.id);
 
   let values = useContext(MainContext);
-  let currentDetail, photos;
+  let currentDetail;
   if (values) {
     currentDetail = values.find((elem) => elem.id === currentParam);
   }
 
   const [activeImg, setActiveImg] = useState(currentDetail?.urlToImages[0]);
+
+  const btnCartClassName = cartClick ? 'active_button_detail' : '';
+  const btnCartClasses = ['addCart_detail button_detail', btnCartClassName];
 
   return (
     <div className='page details__page'>
@@ -104,10 +109,19 @@ function Details() {
           <div className='order__block'>
             <div className='order__block_price'>{currentDetail.price} &#8364;</div>
             <div className='order__block_button'>
-              <button className='addCart_button'>В корзину</button>
+              <button
+                onClick={() => {
+                  setCartClick((isAdd) => {
+                    return !isAdd;
+                  });
+                }}
+                className={btnCartClasses.join(' ')}
+              >
+                {cartClick ? 'Из корзины' : 'В корзину'}
+              </button>
             </div>
             <div className='order__block_button'>
-              <button className='buy_button'>Оформить</button>
+              <button className='buy_button button_detail'>Оформить</button>
             </div>
           </div>
         )}
