@@ -1,3 +1,4 @@
+import { Link } from 'react-router-dom';
 import React, { useState } from 'react';
 import { IData } from '../../types';
 import './CardGoods.css';
@@ -53,11 +54,9 @@ function CardGoods(productCards: IGoodsProps) {
         >
           {cartClick ? 'Из корзины' : 'В корзину'}
         </button>
-        <a href='#'>
-          <button onClick={showCartPage} className='card__actions_show-more button_products'>
-            Подробнее
-          </button>
-        </a>
+        <Link to={`/details/${itemsCard.id}`}>
+          <button className='card__actions_show-more button_products'>Подробнее</button>
+        </Link>
       </div>
     </div>
   );

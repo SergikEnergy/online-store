@@ -8,7 +8,6 @@ interface IProductProps {
 }
 
 function Products(props: IProductProps) {
-  // console.log(props.product);
   return (
     <div className='products'>
       <div className='products__panel control'>
@@ -23,7 +22,7 @@ function Products(props: IProductProps) {
           </select>
         </div>
         <div className='control__find'>
-          Найдено: <span className='find_item'>000</span>
+          Найдено: <span className='find_item'>{props.product.length}</span>
         </div>
         <div className='control__search'></div>
         <div className='control__view'>

@@ -9,7 +9,6 @@ interface IGoodsProps {
 
 function Goods(props: IGoodsProps) {
   const itemsProduct = props.data;
-  console.log(itemsProduct, typeof itemsProduct);
 
   return (
     <div className='goods items'>
