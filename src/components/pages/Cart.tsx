@@ -1,9 +1,16 @@
-import React from 'react';
+import React, { useState } from 'react';
 import { data } from '../../data/data';
 import './Cart.css';
+import ModalWrapper from '../Modal/ModalWrapper';
 
 function Cart() {
   const tryItem = [data[0], data[1]];
+
+  const [isModalVisible, setIsModalVisible] = useState<boolean>(false);
+
+  function toggleModal() {
+    setIsModalVisible((wasVisible) => !wasVisible);
+  }
 
   return (
     <div className='page cart_page'>
@@ -66,7 +73,10 @@ function Cart() {
           <div className='product__calc__body_count'>{0}</div>
           <div className='product__calc__body_promo'></div>
           <div className='product__calc__body_buy'>
-            <button className='buy-now_button'>Оформить покупки</button>
+            <button onClick={toggleModal} className='buy-now_button'>
+              Оформить покупки
+            </button>
+            <ModalWrapper isModalVisible={isModalVisible} onBackClick={toggleModal} />
           </div>
         </div>
       </div>
